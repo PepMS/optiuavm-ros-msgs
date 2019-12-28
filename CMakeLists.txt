@@ -50,9 +50,9 @@ find_package(catkin REQUIRED COMPONENTS
 # Generate messages in the 'msg' folder
 add_message_files(
   FILES
-  uav_oc_fbterm.msg
-  uav_oc_ffterm.msg
-  # uav_oc_policy.msg
+  UAVOptCtlFbterm.msg
+  UAVOptCtlFfterm.msg
+  UAVOptCtlPolicy.msg
 )
 
 ## Generate services in the 'srv' folder
